@@ -1,0 +1,33 @@
+{
+  "name": "three-utils",
+  "version": "1.0.0",
+  "description": "three.js util for typescript and react environment",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "masterTyping <jumbak1234@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "three.js",
+    "typescript",
+    "react",
+    "webgl",
+    "next.js"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "build:dev": "tsc --build tsconfig.dev.json",
+    "build:prod": "tsc --build tsconfig.prod.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/three": "^0.166.0",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
